@@ -1,0 +1,44 @@
+ul {
+    list-style-type: none; /* Remove bullets */
+    display: inline;
+  }
+
+.navbar {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;   
+    position: fixed;
+    background: rgb(42, 41, 41);
+    width: 100%;
+    padding: 2vh;
+}
+
+.leftbox {
+    margin-left : 1vw;
+    display: inline;
+}
+
+.navHome {
+    padding : 8px;
+    color: rgba(255, 255, 255, 0.87);
+}
+
+.navHome:hover {
+    background: rgb(52, 51, 51);
+    border-style: groove;
+}
+
+.navLogin {
+    padding : 8px;
+    color: rgba(255, 255, 255, 0.87);
+}
+
+.navLogin:hover {
+    background: rgb(52, 51, 51);
+    border-style: groove;
+}
+
+.rightbox {
+    margin-right : 5vw;
+}

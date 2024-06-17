@@ -1,0 +1,82 @@
+
+.loginBox {
+    width: 35vw;
+    margin-top: 25vh;
+    margin-left: 30vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background: rgb(255, 255, 255);
+    color: black;
+}
+
+.Header {
+    margin-top: 20px;
+    font-size: 10px;
+    margin-bottom: 20px;
+    border-bottom: solid;
+    border-width: 5px;
+    border-color: black;
+}
+
+
+
+.Icon {
+    margin-top: 3px;
+    padding-right: 8px;
+    display: inline;
+}
+
+
+
+.email {
+    margin-top : 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 5px;
+    background: #d6d6d6;
+    color: #797979;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.password {
+    margin-top : 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 5px;
+    background: #d6d6d6;
+    color: #797979;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+button.loginBtn {
+    margin-top: 20px;
+    border-radius: 10%;
+    margin-bottom: 30px;
+}
+
+.emailInput {
+    border: none;
+    border-right: solid;
+    border-color: #5c5c5c;
+    background: transparent;
+    border-width: 1px;
+    padding: 2px;
+    
+}   
+
+.passwordInput {
+    border: none;
+    border-right: solid;
+    border-color: #5c5c5c;
+    background: transparent;
+    border-width: 1px;
+    
+}
