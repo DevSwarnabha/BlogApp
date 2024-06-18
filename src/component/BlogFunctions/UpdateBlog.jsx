@@ -32,7 +32,7 @@ const CreateBlog = () => {
     <Navbar/>
       <div className='createBox'>
       <div className='Header'>
-        <h1>Write Your Blog</h1>
+        <h1>Update Your Blog</h1>
       </div>
       
       <div className="title">
@@ -73,7 +73,7 @@ const CreateBlog = () => {
       </div>
 
       <div className='btnDiv'>
-        <Button onClick={createBlogFunction} variant="contained" className='createBtn'>Create</Button> 
+        <Button onClick={createBlogFunction} variant="contained" className='createBtn'>Update</Button> 
       </div>
     </div>
     </>
